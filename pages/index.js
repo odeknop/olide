@@ -1,37 +1,35 @@
-import React from 'react'
-import Link from 'next/link'
-import Head from '../components/head'
-import Header from '../components/header'
+import React from 'react';
+import Link from 'next/link';
+import Head from '../components/head';
+import Header from '../components/header';
 
 const Home = () => (
   <div>
-    <Head title='Hemingway' />
+    <Head title='Olivier Deknop' />
     <Header />
-
     <div className='hero' data-img='hey2'>
-      <h1 className='title'>Welcome to Hemingway!</h1>
+      <h1 className='title'>olivier deknop</h1>
       <p className='description' data-text={process.env.TEST}>
-        To get started, edit <code>pages/index.js</code> and save to reload.
+        Full-stack software engineer with a passion for product design and the little details.
       </p>
       <div className='row'>
-        <Link href='https://github.com/zeit/next.js#getting-started'>
+        <Link href='https://github.com/odeknop'>
           <a className='card'>
-            <h3>Getting Started &rarr;</h3>
+            <h3>Github &rarr;</h3>
             <p>Learn more about Next on Github and in their examples</p>
           </a>
         </Link>
-        <Link href='https://open.segment.com/create-next-app'>
+        <Link href='https://gitlab.com/odeknop'>
           <a className='card'>
-            <h3>Examples &rarr;</h3>
+            <h3>Gitlab &rarr;</h3>
             <p>
-              Find other example boilerplates on the{' '}
-              <code>create-next-app</code> site
+              Find other example boilerplates on the <code>create-next-app</code> site
             </p>
           </a>
         </Link>
-        <Link href='https://github.com/segmentio/create-next-app'>
+        <Link href='https://www.linkedin.com/in/odeknop/'>
           <a className='card'>
-            <h3>Create Next App &rarr;</h3>
+            <h3>LinkedIn &rarr;</h3>
             <p>Was this tool helpful? Let us know how we can improve it</p>
           </a>
         </Link>
@@ -85,6 +83,6 @@ const Home = () => (
       }
     `}</style>
   </div>
-)
+);
 
-export default Home
+export default Home;
