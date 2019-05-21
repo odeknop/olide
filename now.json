@@ -1,8 +1,6 @@
 {
   "version": 2,
-  "env": {
-    "TEST": "coucou"
-  },
+  "env": {},
   "builds": [
     {
       "src": "next.config.js",
