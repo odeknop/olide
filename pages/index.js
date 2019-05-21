@@ -7,7 +7,7 @@ const Home = () => (
   <div>
     <Head title='Olivier Deknop' />
     <Header />
-    <div className='hero' data-img='hey2'>
+    <div className='hero'>
       <h1 className='title'>olivier deknop</h1>
       <p className='description' data-text={process.env.TEST}>
         Full-stack software engineer with a passion for product design and the little details.
@@ -16,21 +16,19 @@ const Home = () => (
         <Link href='https://github.com/odeknop'>
           <a className='card'>
             <h3>Github &rarr;</h3>
-            <p>Learn more about Next on Github and in their examples</p>
+            <p>👨🏻‍💻</p>
           </a>
         </Link>
-        <Link href='https://gitlab.com/odeknop'>
+        <Link href='https://twitter.com/odeknop'>
           <a className='card'>
-            <h3>Gitlab &rarr;</h3>
-            <p>
-              Find other example boilerplates on the <code>create-next-app</code> site
-            </p>
+            <h3>Twitter &rarr;</h3>
+            <p>🐦</p>
           </a>
         </Link>
         <Link href='https://www.linkedin.com/in/odeknop/'>
           <a className='card'>
             <h3>LinkedIn &rarr;</h3>
-            <p>Was this tool helpful? Let us know how we can improve it</p>
+            <p>👥</p>
           </a>
         </Link>
       </div>
