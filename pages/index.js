@@ -16,19 +16,16 @@ const Home = () => (
         <Link href='https://github.com/odeknop'>
           <a className='card'>
             <h3>Github &rarr;</h3>
-            <p>👨🏻‍💻</p>
           </a>
         </Link>
         <Link href='https://twitter.com/odeknop'>
           <a className='card'>
             <h3>Twitter &rarr;</h3>
-            <p>🐦</p>
           </a>
         </Link>
         <Link href='https://www.linkedin.com/in/odeknop/'>
           <a className='card'>
             <h3>LinkedIn &rarr;</h3>
-            <p>👥</p>
           </a>
         </Link>
       </div>
@@ -40,7 +37,8 @@ const Home = () => (
         font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir, Helvetica, sans-serif;
       }
       .hero {
-        width: 100%;
+        max-width: 100%;
+        padding: 0 10px;
         color: #333;
       }
       .title {
@@ -63,18 +61,18 @@ const Home = () => (
       }
       .card {
         padding: 18px 18px 24px;
-        width: 220px;
+        width: auto;
         text-align: left;
         text-decoration: none;
-        color: #434343;
-        border: 1px solid #9b9b9b;
       }
-      .card:hover {
-        border-color: #067df7;
+      .card:hover h3 {
+        color: #00366d;
+        transition: color .5s;
       }
       .card h3 {
         margin: 0;
         color: #067df7;
+        transition: color .5s;
         font-size: 18px;
       }
       .card p {
