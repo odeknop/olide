@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "alias": "olide.me",
   "env": {},
   "builds": [
     {
