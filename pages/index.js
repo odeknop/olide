@@ -35,6 +35,10 @@ const Home = () => (
     </div>
 
     <style jsx>{`
+      :global(body) {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir, Helvetica, sans-serif;
+      }
       .hero {
         width: 100%;
         color: #333;
