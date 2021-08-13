@@ -9,7 +9,7 @@
   "dependencies": {
     "@segment/snippet": "^4.4.0",
     "@sentry/browser": "^4.5.3",
-    "next": "^7.0.2",
+    "next": "^11.1.0",
     "now-env": "^3.1.0",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
